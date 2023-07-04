@@ -1,0 +1,35 @@
+.external {
+  width: 50%;
+  margin: 0.8rem auto;
+  color: rgb(16, 2, 51);
+  font-weight: 600;
+  font-size: 1.2erm;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#header {
+  width: 50%;
+  margin: 0.9rem auto;
+  padding: 0.5rem;
+  border: 3px solid purple;
+  border-radius: 10px 2px 10px 2px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header_para {
+  text-align: justify;
+}
+.header_para::first-letter {
+  color: blue;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.lorem {
+  font-style: italic;
+}

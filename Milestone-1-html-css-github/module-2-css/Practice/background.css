@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* width: 50%; */
+  height: 100vh;
+  margin: 0 auto;
+  border: 0px solid black;
+  /* padding: 0.3rem; */
+  background-image: url(../../module-1-html/images/D\ 136485.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: contain;
+  background-color: rgb(192, 26, 26);
+  background-blend-mode: lighten;
+}
+
+.header {
+  width: 50%;
+  margin: 1px auto;
+}
+
+.inline {
+  background-color: blue;
+  margin: 0 auto;
+  display: inline-block;
+}
