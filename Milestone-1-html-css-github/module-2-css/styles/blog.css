@@ -1,0 +1,37 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.header {
+  height: 500px;
+  background-image: url(../../module-1-html/images/D\ 136485.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  text-decoration: overline;
+}
+p {
+  font-size: 1.2rem;
+}
+
+.second {
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+.blog {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 5px solid red;
+  border-radius: 10px;
+  width: 50vw;
+  margin: 10px auto;
+  padding: 8px;
+  text-align: justify;
+  box-shadow: 10px 10px 10px;
+}
