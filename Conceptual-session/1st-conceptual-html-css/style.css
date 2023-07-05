@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container {
+  background-color: black;
+  background-image: linear-gradient(black, 45deg, gray, black);
+
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.menus {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.menus li {
+  margin-right: 10px;
+}
+
+.menus li:hover {
+  color: blue;
+}
+
+/* main section */
+.banner {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  background-image: url(./images/background.png),
+    linear-gradient(45deg, rgb(26, 20, 20), rgb(5, 5, 5));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.banner-img {
+  width: 300px;
+}
+
+.article-heading {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.description {
+  margin: 1rem 0;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-image: linear-gradient(red, rgb(95, 15, 15));
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.about-title {
+  text-align: center;
+  margin: 1rem 0;
+}
+.about_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  width: 240px;
+  height: 250px;
+  background-color: black;
+  box-shadow: 5px 5px 15px gray;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+.box h3 {
+  margin: 10px 0;
+}
+.icon {
+  width: 70px;
+}
+.services-btn {
+  background-color: rgb(78, 77, 77);
+  color: white;
+  margin-top: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.services-btn:hover {
+  background-color: blue;
+  font-weight: 700;
+}
+
+.service-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
