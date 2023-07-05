@@ -35,3 +35,13 @@ p {
   text-align: justify;
   box-shadow: 10px 10px 10px;
 }
+
+.box_model {
+  text-align: center;
+  color: navy;
+}
+
+.order {
+  display: inline-block;
+  text-align: left;
+}
