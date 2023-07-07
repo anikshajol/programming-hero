@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+th,
+td {
+  border: 2px solid rgb(29, 2, 29);
+  padding: 5px;
+}
+
+.chap {
+  column-span: 1;
+}
