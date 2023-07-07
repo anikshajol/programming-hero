@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="./Styles/nav.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        text-align: center;
+      }
+      th,
+      td {
+        border: 2px solid blue;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="1-index.html">Home</a></li>
+          <li><a href="2-blog.html">Blogs</a></li>
+          <li><a href="3-form.html">Form</a></li>
+          <li>
+            <a href="4-table.html">Table</a>
+            <ul class="drop-down">
+              <li><a href="1-index.html">Home</a></li>
+              <li><a href="2-blog.html">Blogs</a></li>
+              <li><a href="3-form.html">Form</a></li>
+              <li><a href="4-table.html">Table</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </main>
+    <h1>HTML table</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Full Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Bill Gates</td>
+          <td>Microsoft</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Bill Gates</td>
+          <td>Microsoft</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Bill Gates</td>
+          <td>Microsoft</td>
+          <td>$1000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          Total employee:4
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
