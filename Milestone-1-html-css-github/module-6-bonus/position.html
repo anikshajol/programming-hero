@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positions</title>
+
+    <style>
+      .box {
+        width: 300px;
+        /* border: 3px dotted blue; */
+        /* margin: auto; */
+        /* text-align: center; */
+        position: relative;
+      }
+      .boy {
+        z-index: 9;
+      }
+
+      .ring {
+        /* position: absolute; */
+        top: -90px;
+        z-index: 7;
+      }
+
+      .water {
+        top: -190px;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Positions</h2>
+    <ol>
+      <!-- flow related -->
+      <li>Static</li>
+      <li>Relative</li>
+      <li>Absolute</li>
+      <!-- scroll related -->
+      <li>Fixed</li>
+      <li>Sticky</li>
+    </ol>
+
+    <!-- IMAGE POSITIONING -->
+
+    <div class="swim-container">
+      <div class="box boy"><img src="./images/boy.svg" alt="boy" /></div>
+      <div class="box ring"><img src="./images/ring.svg" alt="ring" /></div>
+      <div class="box water"><img src="./images/water.svg" alt="water" /></div>
+    </div>
+  </body>
+</html>
