@@ -6,12 +6,16 @@
     <title>CSS Positions</title>
 
     <style>
+      .swim-container{
+        border:1px solid red
+      }
       .box {
         width: 300px;
         /* border: 3px dotted blue; */
         /* margin: auto; */
         /* text-align: center; */
-        position: relative;
+        /* position: relative; */
+        /* position: fixed; */
       }
       .boy {
         z-index: 9;
@@ -19,14 +23,59 @@
 
       .ring {
         /* position: absolute; */
-        top: -90px;
-        z-index: 7;
+        /* top: -90px;
+        z-index: 7; */
+        /* position: sticky;
+        top: 0; */
+
+        position: fixed;
+       inset: 0;
+       margin: auto;
       }
 
       .water {
         top: -190px;
         z-index: 2;
       }
+
+      .dummy{
+        width: 200px;
+        height: 200px;
+        border: 1px solid blue;
+      }
+      li::after{
+        content: ' Position';
+        font-size: medium;
+      }
+
+      li::before{
+        content: 'Start ';
+        color: red;
+     
+
+      }
+
+      p::first-letter{
+        font-size: 3em;
+        color: red;
+      }
+      p::first-line{
+        color: blue;
+        font-weight: bolder;
+      }
+
+      input{
+        border: 1px solid purple;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 100px;
+      }
+
+      input::placeholder{
+        color: rgb(137, 137, 196);
+        font-weight: 200;
+      }
+
     </style>
   </head>
   <body>
@@ -34,12 +83,16 @@
     <ol>
       <!-- flow related -->
       <li>Static</li>
-      <li>Relative</li>
+      <li>Relative: <small>relative position change their position from their own. and don't leave their current spot</small></li>
       <li>Absolute</li>
       <!-- scroll related -->
       <li>Fixed</li>
       <li>Sticky</li>
     </ol>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A tempore error ipsam distinctio commodi animi modi inventore, labore omnis impedit quae minus ad fugiat illo facere delectus laboriosam sapiente corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nesciunt ratione explicabo soluta a adipisci modi reiciendis veritatis hic voluptates. Necessitatibus officia suscipit optio dolorum, adipisci labore molestias neque aliquam.loreem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, iusto impedit ratione ipsam aliquam facere hic id odio consequuntur quisquam amet reiciendis! Totam, rem amet esse dolore possimus ipsa dicta?</p>
+
+    <input type="email" name="" placeholder="Your email" id="">
 
     <!-- IMAGE POSITIONING -->
 
@@ -47,6 +100,21 @@
       <div class="box boy"><img src="./images/boy.svg" alt="boy" /></div>
       <div class="box ring"><img src="./images/ring.svg" alt="ring" /></div>
       <div class="box water"><img src="./images/water.svg" alt="water" /></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
     </div>
   </body>
 </html>
