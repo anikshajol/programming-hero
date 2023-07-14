@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        display: flex;
+        gap: 5px;
+      }
+      .box img {
+        width: 50%;
+        border: 1px solid blue;
+      }
+      .box-2 {
+        flex-direction: row-reverse;
+        margin-right: 5px;
+      }
+
+      .des {
+        width: 100px;
+      }
+
+      @media screen and (max-width: 670px) {
+        .box-2 {
+          flex-direction: column;
+        }
+        .box {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .des {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="../healthy food.jpg" alt="" />
+        <div class="des">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            sunt provident vel ducimus itaque quasi error, ratione eos iusto
+            tempore illum beatae, sed laboriosam numquam nihil rerum, alias qui
+            iure.
+          </p>
+        </div>
+      </div>
+      <div class="box box-2">
+        <img src="../healthy food.jpg" alt="" />
+        <div class="des">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            sunt provident vel ducimus itaque quasi error, ratione eos iusto
+            tempore illum beatae, sed laboriosam numquam nihil rerum, alias qui
+            iure.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

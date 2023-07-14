@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice task</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .box {
+        border: 1px solid blue;
+        padding: 15px;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+      }
+      .box img {
+        width: 100px;
+        object-fit: cover;
+      }
+
+      @media screen and (max-width: 670px) {
+        .box img {
+          width: 100%;
+        }
+
+        .box {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="../healthy food.jpg" alt="" />
+        <div class="">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+            accusantium ad voluptas possimus quia corrupti ducimus at, commodi
+            repellendus illo. Accusamus eos commodi quam architecto explicabo
+            facilis magni ad quas.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../healthy food.jpg" alt="" />
+        <div>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptatem, expedita possimus illum accusamus blanditiis modi
+            adipisci animi vel dolorem. Modi, architecto minima velit iusto
+            saepe nam deserunt accusantium fugiat illum?
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
