@@ -1,0 +1,12 @@
+.nav-container {
+  border: 1px solid purple;
+  min-height: 50px;
+}
+
+.logo-container {
+  border: 1px solid blue;
+}
+
+.nav-items-container {
+  border: 1px solid green;
+}
