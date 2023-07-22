@@ -8,11 +8,41 @@
     <!-- tailwind and daisy ui cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- custom style tailwind -->
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            "bike-primary": '#E76F51',
+          }
+        }
+      }
+    }
+  </script>
+
+
+<!-- styles -->
+<style>
+    .font-poppins{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+
+
 </head>
 
-<body>
+<body class="font-poppins">
     <!-- header section -->
-    <header>
+    <header class="md:container md:mx-auto">
         <!-- nav section -->
         <nav>
             <div class="navbar bg-base-100">
@@ -22,7 +52,7 @@
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabindex="0" class="menu menu-sm dropdown-content text-base mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                       <li><a>Home</a></li>
                       <li>
                         <a>Shop</a>
@@ -33,13 +63,13 @@
                     
                     </ul>
                   </div>
-                  <a class="btn btn-ghost normal-case text-xl">Bike dekho </a>
+                  <a class="btn btn-ghost normal-case text-4xl">Bike dekho </a>
                 </div>
 
                 <!-- large device -->
               
                 <div class="navbar-end hidden lg:flex ">
-                  <ul class="menu menu-horizontal px-1 items-center">
+                  <ul class="menu menu-horizontal text-base px-1 items-center">
                     <li><a>Home</a></li>
                
                       
@@ -48,18 +78,22 @@
                   
                     <li><a>News</a></li>
                     <li><a>Contact</a></li>
-                    <a class="btn bg-[#E76F51] text-white">Login</a>
+                    <!-- <a class="btn bg-bike-primary text-white">Login</a> -->
                   </ul>
                 </div>
-                <div class=" lg:hidden navbar-end">
+                <div class=" navbar-end w-auto">
                   <a class="btn">Login</a>
                 </div>
               </div>
         </nav>
+
+        <!-- slide or carousel -->
+
+
     </header>
 
     <!-- main section -->
-    <main></main>
+    <main class="md:container md:mx-auto"></main>
 
     <!-- footer section -->
     <footer></footer>
