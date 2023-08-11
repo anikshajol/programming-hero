@@ -1,0 +1,23 @@
+h1 {
+  color: lightcoral;
+}
+
+#items-title {
+  color: black;
+}
+
+.important-places {
+  color: blueviolet;
+}
+
+.yellow-bg {
+  background-color: yellowgreen;
+}
+
+.large-text {
+  font-size: 3rem;
+}
+
+.text-align {
+  text-align: center;
+}
