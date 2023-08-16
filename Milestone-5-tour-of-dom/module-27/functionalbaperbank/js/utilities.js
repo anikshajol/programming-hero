@@ -1,4 +1,20 @@
-console.log('utilities');
+function getInputValueByID(inputId) {
+  const inputField = document.getElementById(inputId);
+  const getNumberInputField = parseFloat(inputField.value);
+  inputField.value = "";
+  return getNumberInputField;
+}
 
-const myUtilitiesD = ' this is utilities file for deposit'
-const myUtilitiesW = ' this is utilities file for withdraw'
+function getInputTextById(textId) {
+  const textField = document.getElementById(textId);
+  const textFieldNumber = parseFloat(textField.innerText);
+  return textFieldNumber;
+}
+
+//
+
+function setTextElementValueById(elementId, newValue) {
+  const textElement = document.getElementById(elementId);
+
+  textElement.innerText = newValue;
+}
