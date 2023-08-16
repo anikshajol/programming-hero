@@ -26,7 +26,6 @@ console.log(gemsToDiamon(100,5,1));
 
 let a ='john'
 let b = 'ohn'
-
-let res = a.split(' ');
+let res = a.includes()
 
 console.log(res);
