@@ -3,15 +3,21 @@ document.getElementById("withdraw-btn").addEventListener("click", function () {
 
   const previousWithdrawAmount = getInputTextById("withdraw-amount");
 
+  if (isNaN(withdrawValue)) {
+    alert(" Invalid input ");
+    return;
+  }
   const totalWithdraw = withdrawValue + previousWithdrawAmount;
 
   const balance = getInputTextById("balance-amount");
 
   const newBalance = balance - withdrawValue;
 
-  if (newBalance < withdrawValue) {
-    alert("hello");
+  if (balance < withdrawValue) {
+    alert("Sorry Insufficient balance");
+    return;
   }
+
   setTextElementValueById("withdraw-amount", totalWithdraw);
   setTextElementValueById("balance-amount", newBalance);
 });
