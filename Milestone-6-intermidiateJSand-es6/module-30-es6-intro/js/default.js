@@ -22,10 +22,16 @@ function add(first, second = 0) {
 
 console.log(add(10));
 
-function fullName(firstName, lastName = "hasan") {
+// function fullName(firstName, lastName = "hasan") {
+//   const fullName = firstName + " " + lastName;
+
+//   return fullName;
+// }
+function fullName(firstName, lastName ='' ) {
   const fullName = firstName + " " + lastName;
 
   return fullName;
 }
 
 console.log(fullName("Anik"));
+

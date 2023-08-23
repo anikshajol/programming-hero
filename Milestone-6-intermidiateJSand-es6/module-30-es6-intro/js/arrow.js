@@ -25,6 +25,16 @@ const add2 = function (a, b) {
 const add3 = (a, b) => a + b;
 
 const result = add3(5, 5);
-console.log(result);
+// console.log(result);
 
 // interview ques difference between arrow,regular expression and function declaration
+
+
+
+
+
+const multiply = (x,y)=> x*y
+console.log(multiply(3,3));
+// function multiply(x,y){
+//   return x*y
+// }
