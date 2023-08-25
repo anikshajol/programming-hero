@@ -51,4 +51,4 @@ const { second } = street;
 
 console.log(user.address.street.second); //-->chain
 
-console.log(user2.address?.street?.second);
+console.log(user2.address?.street?.second); //--> ? use optional chaining for avoiding error
