@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      blockquote {
+        padding: 30px 30px;
+        border: 1px solid red;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Quotes</h1>
+    </header>
+    <main>
+      <blockquote id="quote"></blockquote>
+      <div class="btn">
+        <button onclick="loadQuote()">Generate</button>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
