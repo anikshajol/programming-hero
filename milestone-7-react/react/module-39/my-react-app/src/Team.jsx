@@ -1,29 +1,36 @@
-import { useState } from "react";
+import { useState } from "react"
 
-export default function Team() {
-  const [team, setTeam] = useState(11);
+export default function Team(){
 
   const teamStyle = {
-    border: "2px solid purple",
-    padding: "10px",
-  };
-
-  function handleAdd() {
-    const newPlayers = team + 1;
-    setTeam(newPlayers);
+    border: '5px solid purple',
+    padding: '10px',
+    margin: '10px',
+   borderRadius: '15px'
   }
 
-  return (
+  const [team,setTeam] = useState(11)
+
+  const handleAdd = ()=>{
+
+    const addPlayers = team+1;
+
+    setTeam(addPlayers)
+
+  }
+
+  const handleReduce=()=>{
+    const removePlayers = team-1;
+    setTeam(removePlayers)
+  }
+
+
+
+  return(
     <div style={teamStyle}>
-      <h3>Player: {team} </h3>
-      <button onClick={handleAdd}>Add players</button>
-      <button
-        onClick={() => {
-          setTeam(team - 1);
-        }}
-      >
-        Remove players
-      </button>
+      <h3>Team Members: {team}</h3>
+      <button onClick={handleAdd} >Add Players</button>
+      <button onClick={handleReduce}>  Remove Players</button>
     </div>
-  );
+  )
 }
