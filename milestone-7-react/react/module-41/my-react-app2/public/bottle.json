@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Glass Water Bottle",
+    "capacity": "500ml",
+    "material": "Glass",
+    "price": 12.99,
+    "imageURL": "https://example.com/glass-water-bottle.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Stainless Steel Insulated Bottle",
+    "capacity": "750ml",
+    "material": "Stainless Steel",
+    "price": 19.99,
+    "imageURL": "https://example.com/stainless-steel-bottle.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Plastic Sports Bottle",
+    "capacity": "700ml",
+    "material": "Plastic",
+    "price": 7.49,
+    "imageURL": "https://example.com/plastic-sports-bottle.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Copper Water Bottle",
+    "capacity": "600ml",
+    "material": "Copper",
+    "price": 24.99,
+    "imageURL": "https://example.com/copper-water-bottle.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bamboo Water Bottle",
+    "capacity": "800ml",
+    "material": "Bamboo",
+    "price": 15.99,
+    "imageURL": "https://example.com/bamboo-water-bottle.jpg"
+  }
+]
